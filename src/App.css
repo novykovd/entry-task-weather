@@ -1,33 +1,39 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tab1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
+.tab2 {
+  flex: 1;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
 
-table, td, th {
+.tab3 {
+  flex: 1;
+}
+
+.graph {
+  padding: 20px;
+}
+
+table {
+  margin: 5px;
+  padding: 5px;
   border: 1px solid black;
 }         
