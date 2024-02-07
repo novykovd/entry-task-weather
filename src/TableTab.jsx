@@ -17,6 +17,7 @@ function MeteoTable(props) {
 
     return (
         <div>
+            
             <table>
                 <thead>
                     <tr>
