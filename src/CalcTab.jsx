@@ -52,7 +52,7 @@ function HeatIndexCalc(){
     return(
       <div>
           <div>
-            <h2>heat index calc</h2>
+            <h2>heat index calculator</h2>
             <input type="text" placeholder='enter temperature' id='tempInput'/>
             <input type="text" placeholder='enter humidity'id='humidityInput'/>
             <div>celsius?<input type="checkbox" id='c' onChange={checkBoxState} checked={checked}/></div>
